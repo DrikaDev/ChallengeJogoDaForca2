@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 97.5vh;
+    background-color: #E5E5E5;
+    border: 4px solid #0A3871;
+    border-radius: 20px;
+}
+
+header{
+    width: 100%;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.titulo img{
+    width: 40px;
+}
+
+.titulo h1{
+    width: 40rem;
+    font-size: 2rem;
+    color: #0A3871;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+main{
+    width: 100%;
+    height: 78vh;
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.play{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #0A3871;
+    color: aliceblue;
+    margin-bottom: 10%;
+    transition: 1s all;
+}
+        
+.play:hover{
+    transform: scale(1.2);
+}
+
+.new-word{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    transition: 1s all;
+}
+
+.new-word:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    width: 60%;
+    margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+    .titulo-1 img{
+        width: 30px;
+    }
+    
+    .titulo-1 h1{
+        width: 80%;
+        font-size: 1.8rem;
+    }
+    
+    .play{
+        width: 250px;
+        height: 60px;
+        font-size: 1rem;
+    }
+
+    .new-word{
+        width: 250px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    
+    footer{
+        width: 75%;
+        font-size: 10px;
+        margin-top: 24rem;
+        margin-left: 1rem;
+    }   
+}
+
+@media (max-width: 320px) {
+    .titulo-1 img{
+        width: 30px;
+    }
+    
+    .titulo-1 h1{
+        width: 80%;
+        font-size: 1.8rem;
+    }
+    
+    .play{
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .new-word{
+        width: 200px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    footer{
+        width: 75%;
+        font-size: 10px;
+        margin-top: 24rem;
+        margin-left: 1rem;
+    }   
+}
